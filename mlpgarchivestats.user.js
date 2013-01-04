@@ -106,10 +106,10 @@
 		
 		this.toString = function()
 		{
-			return 	'Total of ' + this.posts.toLocaleString() + ' posts, ' +
-					this.images.toLocaleString() + ' images and ' +
-					this.sages.toLocaleString() + ' sages in ' +
-					this.threads.toLocaleString() + ' threads.';
+			return 	'Total of ' + this.posts + ' posts, ' +
+					this.images + ' images and ' +
+					this.sages + ' sages in ' +
+					this.threads + ' threads.';
 		};
 	};
 	
