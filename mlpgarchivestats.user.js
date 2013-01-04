@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           MLPG Archive Stats
-// @version        1.1
+// @version        1.1.1
 // @namespace      cfmlpg
 // @description    Shows thread statistics in MLPG's archive.
 // @author         cfmlpg
@@ -106,10 +106,10 @@
 		
 		this.toString = function()
 		{
-			return 	'Total of ' + this.posts + ' posts, ' +
-					this.images + ' images and ' +
-					this.sages + ' sages in ' +
-					this.threads + ' threads.';
+			return 	'Total of ' + this.posts.toLocaleString() + ' posts, ' +
+					this.images.toLocaleString() + ' images and ' +
+					this.sages.toLocaleString() + ' sages in ' +
+					this.threads.toLocaleString() + ' threads.';
 		};
 	};
 	
